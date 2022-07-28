@@ -1,13 +1,35 @@
 #carouselExampleControls{
     width: 87%;
     margin: auto;
+    background-image: url();
 }
 
 #alin{
     margin-top: -500px;
 }
 
-#btn{
-    width: 120px;
-    padding: 5px;
+/* responsive css */
+/* sm divice */
+@media screen and (max-width:576px) {
+    #bt{
+        display: none;
+    }
+
+
+
+}
+
+
+
+/* lg devise */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    #bt{
+       display: none;
+    }
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
 }
